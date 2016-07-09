@@ -11,6 +11,7 @@ public class Main {
 		ls.display();
 		ls.delete();
 		ls.insert(21);
+		ls.insert(27);
 		ls.display();
 		ls.insert(98);
 		ls.display();
