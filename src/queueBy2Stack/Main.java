@@ -10,7 +10,7 @@ public class Main {
 		q.insert(7);
 		q.display();
 		q.delete();
-		//q.display();
+		q.display();
 		q.insert(2);
 		q.insert(8);
 		q.insert(1);
@@ -18,7 +18,7 @@ public class Main {
 		
 		//q.delete();
 		//q.delete();
-		//q.delete();
+		q.delete();
 		//q.delete();
 		q.display();
 	}
