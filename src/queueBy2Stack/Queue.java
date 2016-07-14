@@ -28,7 +28,7 @@ public class Queue {
 	void delete()
 	{ int j =0; 
 	int temp = counter;
-	int y=0;
+	//int y=0;
 		for(int i=temp; i>0; i--, j++){
 			outbox[j]=inbox[i] ;
 			inTop--;
