@@ -11,28 +11,22 @@ public class Queue {
 	
 	void insert(int num)
 	{
-		if(inTop == -1)
-		{
-			inbox[++inTop] = num;
-			counter ++;
-		}
-		else
-		{
+		
 			inbox[++inTop] = num;
 			
 			counter ++;
-		}
+		
 		//System.out.println("Counter :" + counter);
 	}
 	
 	void delete()
-	{ int j =0; 
-	int temp = counter;
-	//int y=0;
+	{ 
+		int j =0; 
+		int temp = counter;
+		//int y=0;
 		for(int i=temp; inTop>0; i--, j++){
 			outbox[j]=inbox[i-1] ;
-			inTop--;
-			
+			inTop--;	
 		}
 		//System.out.println("Value :" + inTop);
 		if(inTop == 0){
